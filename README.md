@@ -2,8 +2,6 @@
 
 an online library system with GUI applications for managing members, books, and book reservations, utilizing RESTful endpoints, secure socket communication, and multicast messaging. It includes separate applications for library members and book suppliers, with functionalities for book proposals, orders, and chat communication.
 
-Certainly! Here is a rundown of the technologies and libraries used in the project:
-
 ### Java
 - **JavaFX**: Used for building the GUI applications for the library, members, and suppliers. JavaFX provides a rich set of UI controls and multimedia capabilities.
 - **Java RMI (Remote Method Invocation)**: Used for communication between the supplier and the accounting service. RMI allows invoking methods on remote objects.
