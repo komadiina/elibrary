@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="22" class="java.beans.XMLDecoder">
+ <object class="java.util.HashSet">
+  <void method="add">
+   <object class="net.etfbl.model.Receipt" id="Receipt0">
+    <void id="ArrayList0" property="books">
+     <void method="add">
+      <object class="net.etfbl.model.Book">
+       <void property="author">
+        <string>Author: Elisha Benjamin Andrews</string>
+       </void>
+       <void property="coverPage">
+        <string>https://www.gutenberg.org/cache/epub/24023/pg24023.cover.medium.jpg</string>
+       </void>
+       <void property="date">
+        <string>Release date: December 24, 2007 [eBook #24023]</string>
+       </void>
+       <void property="filePath">
+        <string>C:/Users/ognjen/Desktop/projektni/resources/books/24023.txt</string>
+       </void>
+       <void property="id">
+        <string>24023</string>
+       </void>
+       <void property="language">
+        <string>Language: English</string>
+       </void>
+       <void property="title">
+        <string>Title: History of the United States, Volume 6</string>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="net.etfbl.model.Book">
+       <void property="author">
+        <string>Author: Jr. Horatio Alger</string>
+       </void>
+       <void property="coverPage">
+        <string>https://www.gutenberg.org/cache/epub/24013/pg24013.cover.medium.jpg</string>
+       </void>
+       <void property="date">
+        <string>Release date: December 24, 2007 [eBook #24013]</string>
+       </void>
+       <void property="filePath">
+        <string>C:/Users/ognjen/Desktop/projektni/resources/books/24013.txt</string>
+       </void>
+       <void property="id">
+        <string>24013</string>
+       </void>
+       <void property="language">
+        <string>Language: English</string>
+       </void>
+       <void property="title">
+        <string>Title: The Telegraph Boy</string>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="net.etfbl.model.Book">
+       <void property="author">
+        <string>Author: K. Rangachari</string>
+       </void>
+       <void property="coverPage">
+        <string>https://www.gutenberg.org/cache/epub/24063/pg24063.cover.medium.jpg</string>
+       </void>
+       <void property="date">
+        <string>Release date: December 28, 2007 [eBook #24063]</string>
+       </void>
+       <void property="filePath">
+        <string>C:/Users/ognjen/Desktop/projektni/resources/books/24063.txt</string>
+       </void>
+       <void property="id">
+        <string>24063</string>
+       </void>
+       <void property="language">
+        <string>Language: English</string>
+       </void>
+       <void property="title">
+        <string>Title: A Handbook of Some South Indian Grasses</string>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1725102929301</long>
+     </object>
+    </void>
+    <void property="price">
+     <double>112.97</double>
+    </void>
+    <void property="vat">
+     <double>19.204900000000002</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.Receipt">
+    <void property="books">
+     <object idref="ArrayList0"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1725102929298</long>
+     </object>
+    </void>
+    <void property="price">
+     <double>123.96</double>
+    </void>
+    <void property="vat">
+     <double>21.0732</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

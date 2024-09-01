@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="22" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="activated">
+     <boolean>true</boolean>
+    </void>
+    <void property="email">
+     <string>komadina.ognjen@gmail.com</string>
+    </void>
+    <void property="firstName">
+     <string>Ognjen</string>
+    </void>
+    <void property="lastName">
+     <string>Komadina</string>
+    </void>
+    <void property="username">
+     <string>ogg1</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="activated">
+     <boolean>true</boolean>
+    </void>
+    <void property="email">
+     <string>komadina.ognjen2n@gmail.com</string>
+    </void>
+    <void property="firstName">
+     <string>Ognjen</string>
+    </void>
+    <void property="lastName">
+     <string>Komadina</string>
+    </void>
+    <void property="username">
+     <string>ogg2</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="email">
+     <string>komadina.ognjen3@gmail.com</string>
+    </void>
+    <void property="firstName">
+     <string>Ognjen</string>
+    </void>
+    <void property="lastName">
+     <string>Komadina</string>
+    </void>
+    <void property="username">
+     <string>ogg3</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="email">
+     <string>komadina.ognjen4@gmail.com</string>
+    </void>
+    <void property="firstName">
+     <string>Ognjen</string>
+    </void>
+    <void property="lastName">
+     <string>Komadina</string>
+    </void>
+    <void property="username">
+     <string>ogg4</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

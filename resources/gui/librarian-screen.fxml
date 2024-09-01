@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.etfbl.application.gui.controllers.LibrarianController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" layoutX="404.0" layoutY="31.0" prefHeight="46.0" prefWidth="150.0" text="e-Library">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Line endX="407.0" layoutX="146.0" layoutY="80.0" startX="-100.0" />
+            <Label layoutX="46.0" layoutY="33.0" prefHeight="47.0" prefWidth="221.0" text="Librarian menu">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="46.0" layoutY="93.0" text="Registered users">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <ScrollPane layoutX="46.0" layoutY="125.0" prefHeight="147.0" prefWidth="508.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="138.0" prefWidth="504.0">
+                     <children>
+                        <ListView fx:id="userListView" layoutX="-1.0" prefHeight="147.0" prefWidth="508.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            <TextField fx:id="userSelectionEmail" layoutX="46.0" layoutY="275.0" prefHeight="25.0" prefWidth="250.0" promptText="Email" />
+            <Button layoutX="306.0" layoutY="275.0" mnemonicParsing="false" onAction="#activate" prefHeight="25.0" prefWidth="72.0" text="Activate" />
+            <Button layoutX="393.0" layoutY="275.0" mnemonicParsing="false" onAction="#deactivate" text="Deactivate" />
+            <Button layoutX="482.0" layoutY="275.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="72.0" text="Delete" />
+            <Line endX="407.0" layoutX="146.0" layoutY="310.0" startX="-100.0" />
+            <ScrollPane layoutX="46.0" layoutY="323.0" prefHeight="93.0" prefWidth="508.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="91.0" prefWidth="506.0">
+                     <children>
+                        <ListView fx:id="supplierNames" prefHeight="90.0" prefWidth="508.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            <Label fx:id="bookProposalNotification" layoutX="46.0" layoutY="544.0" prefHeight="25.0" prefWidth="331.0" text="">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="378.0" layoutY="544.0" mnemonicParsing="false" onAction="#approveBookProposal" prefHeight="25.0" prefWidth="97.0" text="Approve" />
+            <Button layoutX="482.0" layoutY="544.0" mnemonicParsing="false" onAction="#denyBookProposal" prefHeight="25.0" prefWidth="72.0" text="Deny" />
+            <TextField fx:id="supplierID" layoutX="46.0" layoutY="427.0" promptText="Supplier ID/Username" />
+            <TextField fx:id="supplierBookID" layoutX="206.0" layoutY="427.0" promptText="Gutenberg book ID" />
+            <Button layoutX="378.0" layoutY="427.0" mnemonicParsing="false" onAction="#requestSupply" prefHeight="25.0" prefWidth="174.0" text="Request" />
+            <Line endX="407.0" layoutX="146.0" layoutY="530.0" startX="-100.0" />
+            <Label fx:id="supplierResponse" alignment="CENTER" layoutX="46.0" layoutY="462.0" prefHeight="32.0" prefWidth="508.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="vatAmountLabel" alignment="CENTER" layoutX="172.0" layoutY="502.0" prefHeight="25.0" prefWidth="250.0" text="Label">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

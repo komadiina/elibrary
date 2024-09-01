@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="slf4j-api-2.0.16.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/slf4j-api-2.0.16.jar!/"/>
+	</lib>
+	<lib name="logback-classic-1.5.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/logback-classic-1.5.7.jar!/"/>
+	</lib>
+	<lib name="jedis-5.1.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jedis-5.1.5.jar!/"/>
+	</lib>
+	<lib name="commons-pool2-2.4.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-pool2-2.4.3.jar!/"/>
+	</lib>
+	<lib name="javafx-base-22.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javafx-base-22.jar!/"/>
+	</lib>
+	<lib name="javafx-controls-22.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javafx-controls-22.jar!/"/>
+	</lib>
+	<lib name="javafx-fxml-22.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javafx-fxml-22.jar!/"/>
+	</lib>
+	<lib name="javafx-graphics-22.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javafx-graphics-22.jar!/"/>
+	</lib>
+</component>

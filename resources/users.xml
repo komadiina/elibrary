@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="22" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="activated">
+     <boolean>true</boolean>
+    </void>
+    <void property="email">
+     <string>komadina.ognjen@gmail.com</string>
+    </void>
+    <void property="firstName">
+     <string>Ognjen</string>
+    </void>
+    <void property="lastName">
+     <string>Komadina</string>
+    </void>
+    <void property="password">
+     <string>admin</string>
+    </void>
+    <void property="role">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>net.etfbl.model.Role</class>
+      <string>LIBRARIAN</string>
+     </object>
+    </void>
+    <void property="username">
+     <string>ogg</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="activated">
+     <boolean>true</boolean>
+    </void>
+    <void property="email">
+     <string>testemail@gmail.com</string>
+    </void>
+    <void property="firstName">
+     <string>ognjen</string>
+    </void>
+    <void property="lastName">
+     <string>komadina</string>
+    </void>
+    <void property="password">
+     <string>password</string>
+    </void>
+    <void property="role">
+     <object class="java.lang.Enum" id="Role0" method="valueOf">
+      <class>net.etfbl.model.Role</class>
+      <string>MEMBER</string>
+     </object>
+    </void>
+    <void property="username">
+     <string>testusername</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="activated">
+     <boolean>true</boolean>
+    </void>
+    <void property="email">
+     <string>supplier@mail.com</string>
+    </void>
+    <void property="firstName">
+     <string>neki</string>
+    </void>
+    <void property="lastName">
+     <string>covjek</string>
+    </void>
+    <void property="password">
+     <string>supplierpass</string>
+    </void>
+    <void property="role">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>net.etfbl.model.Role</class>
+      <string>SUPPLIER</string>
+     </object>
+    </void>
+    <void property="username">
+     <string>supplier</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="activated">
+     <boolean>true</boolean>
+    </void>
+    <void property="email">
+     <string>ognjen.komadina@student.etf.unibl.org</string>
+    </void>
+    <void property="firstName">
+     <string>ognjen</string>
+    </void>
+    <void property="lastName">
+     <string>komadina</string>
+    </void>
+    <void property="password">
+     <string>password</string>
+    </void>
+    <void property="role">
+     <object idref="Role0"/>
+    </void>
+    <void property="username">
+     <string>oggnjen</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="activated">
+     <boolean>true</boolean>
+    </void>
+    <void property="email">
+     <string>prodbyogg@gmail.com</string>
+    </void>
+    <void property="firstName">
+     <string>ognjen</string>
+    </void>
+    <void property="lastName">
+     <string>komadina</string>
+    </void>
+    <void property="password">
+     <string>korisnik1</string>
+    </void>
+    <void property="role">
+     <object idref="Role0"/>
+    </void>
+    <void property="username">
+     <string>korisnik1</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="net.etfbl.model.User">
+    <void property="activated">
+     <boolean>true</boolean>
+    </void>
+    <void property="email">
+     <string>pavlebijeljac@gmail.com</string>
+    </void>
+    <void property="firstName">
+     <string>pavle</string>
+    </void>
+    <void property="lastName">
+     <string>bijeljac</string>
+    </void>
+    <void property="password">
+     <string>password</string>
+    </void>
+    <void property="role">
+     <object idref="Role0"/>
+    </void>
+    <void property="username">
+     <string>pookiebear</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
